@@ -24,11 +24,11 @@ public class Searches {
     }
 
     public Fraction findHighestFraction() {
+        //comentario de bug
         return new UsersDatabase().findAll()
                 .flatMap(user -> user.getFractions().stream())
                 .max(Comparator.comparingDouble(Fraction::decimal))
                 .get();
-
     }
 
     public Stream<String> findUserNameBySomeImproperFraction() {
