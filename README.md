@@ -17,3 +17,4 @@
 [![Build Status](https://travis-ci.org/david-amaya-acruz/iwvg-devops-david-amaya.svg?branch=develop)](https://travis-ci.org/david-amaya-acruz/iwvg-devops-david-amaya)
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=es.upm.miw%3Aiwvg-devops-david-amaya&metric=alert_status)](https://sonarcloud.io/dashboard?id=es.upm.miw%3Aiwvg-devops-david-amaya)
 [![BCH compliance](https://bettercodehub.com/edge/badge/david-amaya-acruz/iwvg-devops-david-amaya?branch=develop)](https://bettercodehub.com/)
+[![Heroku broken](https://iwvg-devops-david-amaya.herokuapp.com/system/version-badge)](https://iwvg-devops-david-amaya.herokuapp.com/swagger-ui.html)
