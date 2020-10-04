@@ -23,4 +23,11 @@ class SearchesTest {
         assertEquals(List.of("Fernandez","Blanco","López", "Torres"), new Searches().findUserFamilyNameBySomeImproperFraction()
                 .collect(Collectors.toList()));
     }
+
+    @Test
+    void findHighestFraction() {
+        Fraction result =new Searches().findHighestFraction();
+        assertEquals(0, result.getNumerator());
+        assertEquals(0, result.getDenominator());
+    }
 }
